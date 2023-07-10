@@ -1,0 +1,17 @@
+Make a game where the player must navigate their ship through an astroid field without hitting
+and asteroid. The players ship should look like the enterprise from Star Trek the Next Generation.
+The game should be in 2d and be a top to bottom scoller, so that the players ship is always at the
+bottom of the screen and asteroids come from the top of the screen and move towards the bottom.
+The game should have the following features:
+* A high score list where players high scores are displayed at the end of the game. We want to show
+only the top ten player scores.
+* We want to track every players score and keep the top score for every player so we can show them
+  the best performace they've had so far. This should be displayed at the end of every game.
+* The player has 3 lives, when a player hits and asteroid, the game pauses, then resumes until they 
+  are out of lives, at which point the game ends and their final score is displayed, and then displays
+  the top ten player scores.
+* players score is determined by the length of time they survive.
+* A login at the start where a player can put their username and a password so we can track their
+  top score.
+  * The number of astroids increases slowly as time goes on. As in, at the beginning of the game,
+  there are few asteroids, but as time goes on there are more and more making the game harder over time.

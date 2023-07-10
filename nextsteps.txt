@@ -1,0 +1,17 @@
+The game should have the following features:
+* A high score list where players high scores are displayed at the end of the game. We want to show
+only the top ten player scores.
+* We want to track every players score and keep the top score for every player so we can show them
+the best performace they've had so far. This should be displayed at the end of every game.
+* players score is determined by the length of time they survive. Meaning they get 10 points per second.
+* The number of astroids increases slowly as time goes on. As in, at the beginning of the game,
+there are few asteroids, but as time goes on there are more and more making the game harder over time.
+* The player will use the arrow keys to navigate their ship left and right in order to dodge asteroids.
+* The asteroids appear from top to bottom of the screen and they are randomly shaped polygons of varying sizes.
+* The game should have a black background, the asteroids should be gray in color, and the ship should be white with a red dot in the middle.
+* The design of the space ship should be a circle with two columns on each side of the circle, use your best discretion. The color scheme can be whatever you see fit.
+* The player ship shoud be a circle with two columns on either side. The players score should be shown at the top right of the screen. The rate at which the asteroids should appear is starting from time 0 we should have 1 asteroid and every 7 seconds we double the amount of asteroids. The size of the asteroids should not be too big as there should always be space on the screen large enough for the ship itself. The specific shades are up to you.
+* Asteroids should float from the top of the screen to the bottom and when they come in contact with the ship the game is over and the score is recorded if it is in the top 10 scores.
+* When the user closes the window the game should terminate. 
+* There should be a title screen the allows the player to view the top 10 scores and start the game.
+* Once the ship is hit by an asteroid the score is recorded and the palyer is navigated back to the title screen.
